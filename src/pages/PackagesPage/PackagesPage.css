@@ -1,0 +1,10 @@
+.cities-cards{
+  margin-top: 90px;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+@media (max-width:992px) {
+  .cities-cards{
+  margin-top: 60px;
+}
+}

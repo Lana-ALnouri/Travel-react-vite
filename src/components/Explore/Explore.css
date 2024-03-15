@@ -1,0 +1,37 @@
+.explore{
+  width: 100%;
+  margin-top: 90px;
+  display: flex;
+}
+.explore .explore_banner{
+  width: 50%;
+  height: 314px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+/* ============================= Responsive ========================== */
+@media (max-width:768px) {
+  .explore .explore_banner{
+  width: 100%;
+}
+.explore{
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.explore-content span {
+    font-size: 14px;
+}
+.explore-content h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.explore-content button {
+    width: 150px;
+    height: 45px;
+    font-size: 12px;
+}
+}

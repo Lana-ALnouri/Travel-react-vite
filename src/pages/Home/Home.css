@@ -1,0 +1,19 @@
+.home header p {
+  font-family: "poppins" !important;
+  color: var(--Black-color) !important;
+  font-size: 40px !important;
+}
+/* =================================== Responsive ================================== */
+@media (max-width:992px) {
+.home header p {
+  width: 90%;
+  font-size: 30px !important;
+  line-height: 39px;
+}
+}
+@media (max-width:768px) {
+.home header p {
+  font-size: 23px !important;
+  line-height: 30px;
+}
+}

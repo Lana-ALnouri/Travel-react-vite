@@ -1,0 +1,24 @@
+.explore-content span{
+  color: #FFEFEC;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.8px;
+text-transform: uppercase;
+}
+.explore-content h2{
+color: var(--White-color);
+font-family: 'Volkhov';
+font-size: 40px;
+font-weight: 700;
+line-height: 71.042px; 
+margin-bottom: 20px;
+}
+.explore-content button{
+color: var(--White-color);
+width: 183px;
+height: 58px;
+background-color: transparent;
+border: 1px solid var(--White-color);
+box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+margin: 0 auto;
+}

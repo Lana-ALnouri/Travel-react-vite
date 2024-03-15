@@ -1,0 +1,71 @@
+nav{
+  width: 100%;
+  height: 55px;
+  position: absolute;
+  top: 36px;
+  z-index: 100;
+}
+nav button {
+background-color: var(--primary-color);
+filter: drop-shadow(0px 20px 35px rgba(223, 105, 81, 0.15));
+font-size: 15px;
+font-weight: 600;
+padding: 11px 28px;
+}
+.nav-items{
+  gap: 50px;
+}
+.nav-items li a{
+  font-size: 17px;
+  color: var(--White-color);
+  font-weight: 400;
+  position: relative;
+}
+.nav-items li a.active::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 3px;
+  background-color: var(--primary-color);
+  border-radius: 34px;
+  left: 0;
+  bottom: -6px;
+}
+/* =================================== Mobile Navbar ====================================== */
+.menu-icon{
+  display: none;
+}
+.nav-mobile{
+  position: fixed;
+  top: 36px;
+  right: 0;
+  width: 246px;
+  background-color: var(--White-color);
+  height: calc(100vh - 36px);
+  padding-top:90px;
+  align-items: center;
+  gap: 90px;
+}
+.nav-mobile-items {
+  gap: 50px;
+}
+.nav-mobile-items a{
+  color: var(--Black-color);
+}
+.close-icon{
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+/* =================================== Responsive ================================== */
+@media (max-width:992px) {
+  .nav-items , nav .container button {
+    display: none;
+  }
+  .menu-icon{
+  display: block;
+}
+.logo-img{
+  width: 120px;
+}
+}

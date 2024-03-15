@@ -1,0 +1,31 @@
+.section-heading{
+  text-align: center;
+  margin:90px 0 70px;
+}
+.section-heading span{
+color: #DF6951;
+font-size: 18px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.section-heading h1{
+  color: #1E1D4C;
+text-align: center;
+font-size: 50px;
+font-weight: 700;
+text-transform: capitalize;
+}
+/* ================================== Responsive ============================== */
+@media (max-width:768px) {
+  .section-heading{
+  text-align: center;
+  margin:60px 0 50px;
+}
+.section-heading span{
+font-size: 13px;
+}
+.section-heading h1{
+font-size: 28px;
+font-weight: 700;
+}
+}

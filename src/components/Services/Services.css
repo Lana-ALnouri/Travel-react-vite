@@ -1,0 +1,6 @@
+.services-cards{
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 55px;
+  text-align: center;
+}

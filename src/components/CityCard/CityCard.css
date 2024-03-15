@@ -1,0 +1,54 @@
+.city_card{
+  width: 386px;
+  padding: 20px;
+  background-color: #F5F3F3;
+  border-radius: 4px;
+}
+.city_card .city_img{
+width: 100%;
+}
+.details_bottom{
+  width: 100%;
+  color: var(--White-color);
+border-radius: 0px 0px 4px 4px;
+background: var(--primary-color);
+display: flex;
+justify-content: space-between;
+padding: 10px 16px;
+font-size: 12.974px;
+font-weight: 500;
+text-transform: capitalize;
+    margin-top: -7px;
+}
+.city_card .cityName{
+  color: #181E4B;
+font-size: 22px;
+font-weight: 700;
+margin: 15px 0 10px;
+}
+.city_card  .desc{
+  color: #181E4B;
+font-size: 14px;
+font-weight: 400;
+margin-bottom: 10px;
+}
+.city_card .price{
+  gap: 40px;
+  color: #262626;
+font-size: 16px;
+font-weight: 500;
+}
+.city_card .star{
+  margin-right: 4px;
+}
+/* ================================= Responsive ================================ */
+@media (max-width:992px) {
+  .city_card{
+  width: 300px;
+}
+}
+@media (max-width:767px) {
+  .city_card{
+  width:100%;
+}
+}

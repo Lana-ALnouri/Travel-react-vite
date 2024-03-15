@@ -1,0 +1,28 @@
+.card {
+  width: 260px;
+  justify-content:center;
+  align-items: center;
+  row-gap: 10px;
+}
+.card p{
+  color: var(--gray-color);
+font-size: 16px;
+font-weight: 500;
+}
+.card h3{
+color:  #1E1D4C;
+font-size: 20px;
+font-weight: 600;
+}
+/* ================================== Responsive ============================== */
+@media (max-width:768px) {
+.card p{
+font-size: 14px;
+}
+.card h3{
+font-size: 18px;
+}
+.card img{
+  width: 80px;
+}
+}
