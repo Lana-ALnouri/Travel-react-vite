@@ -5,7 +5,6 @@ import About from "./pages/About/About"
 import PackagesPage from "./pages/PackagesPage/PackagesPage";
 import MainLayout from './components/MainLayout/MainLayout'
 
-const Router = createBrowserRouter(Routes, { basename: import.meta.env.BASE_URL });
 
 function App() {
 
